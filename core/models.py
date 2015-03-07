@@ -6,7 +6,7 @@ from random import shuffle
 from django.contrib.gis.db import models
 from django.core.urlresolvers import reverse
 from django.contrib.gis.geos import Polygon
-from django.contrib.gis.utils import LayerMapping
+from django.contrib.gis.utils.layermapping import LayerMapping
 from django.db.models.aggregates import Count
 
 from core.utilities.domecile_comparisons import domecile_cmp
